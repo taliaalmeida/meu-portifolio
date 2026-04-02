@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Natalia Almeida</title>
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f6ebf1;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      color: #cf3bb9;
+      margin: 0 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #cf3bb9;
+      font-weight: bold;
+    }
+    .sobre {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .container-geral {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 40px auto;
+      max-width: 1000px;
+    }
+    .card {
+      background-color: #fff;
+      max-width: 300px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+  color: #cf3bb9; /* mesmo rosa do seu nome */
+  font-family: 'Pacifico', cursive; /* mesma fonte do título principal */
+}
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 1px solid #ccc;
+    }
+    footer a {
+      margin: 0 10px;
+      color: #cf3bb9;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="foto.jpg" alt="Natália Almeida">
+    <h1>Natalia Almeida</h1>
+    <nav>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre" class="sobre">
+      <p>Olá! Sou Natalia Almeida, desenvolvedora em transição para a área de tecnologia.</p>
+    <p>Venho do mundo do empreendedorismo — tive meu próprio negócio de marcenaria, onde aprendi na prática sobre gestão, criatividade e dar vida a projetos do zero.</p>
+    <p>Hoje aplico essa mesma energia na programação. Estou cursando Gestão de Tecnologia da Informação na Uniasselvi e construindo minha jornada no desenvolvimento web, dominando Python, HTML, CSS e JavaScript.</p>
+    <p>Acredito que assim como na marcenaria, programar é transformar uma ideia em algo real — e é isso que me move. 🚀</p>
+    </section>
+
+    <section id="projetos">
+      <div class="container-geral">
+        <div class="card">
+          <h3>Sistema de Cadastro de Usuários - Python</h3>
+          <p>Sistema com menu interativo no terminal usando dicionários e funções.</p>
+          <a href="https://github.com/taliaalmeida/sistema-cadastro">Ver no GitHub</a>
+        </div>
+        <div class="card">
+          <h3>Primeira Página Web - HTML e CSS</h3>
+          <p>Primeira página web desenvolvida com HTML e CSS.</p>
+          <a href="https://github.com/taliaalmeida/primeira-pagina">Ver no GitHub</a>
+        </div>
+        <div class="card">
+          <h3>Receita da Felicidade - HTML e CSS</h3>
+          <p>Página web com receitas de pratos deliciosos.</p>
+          <a href="https://github.com/taliaalmeida/receita-da-felicidade">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <p>Entre em contato:</p>
+    <a href="https://www.linkedin.com/in/natalia-almeida-7249b6183/">LinkedIn</a>
+    <a href="https://github.com/taliaalmeida">GitHub</a>
+  </footer>
+</body>
+</html>
